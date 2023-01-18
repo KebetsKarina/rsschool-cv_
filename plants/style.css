@@ -1,0 +1,566 @@
+@font-face {
+    font-family: Inika;
+    src: url("assets/fonts/Inika-Regular.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: Inika;
+    src: url("assets/fonts/Inika-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Inter;
+    src: url("assets/fonts/Inter-Regular.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: Inter;
+    src: url("assets/fonts/Inter-Bold.ttf");
+    font-weight: 700;
+}
+body {
+    font-family: "Inika", "Inter";
+}
+.header {
+    background-color: #EDF2EC;
+    height: 134px;
+    min-width: 1440px;
+}
+.logo {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 111px;
+    top: 52px;
+}
+.logotype {
+    position: absolute;
+    top: 40px;
+    left: 132.05px;
+    font-family: Inika;
+    font-weight: 700;
+    font-size: 16px;
+}
+.nav-grid {
+    position: absolute;
+    top: 42px;
+    left: 879px;
+}
+.navigation {
+    display: grid;
+    grid-template-columns: 44px 67px 55px 38px 64px;
+    grid-column-gap: 46px;
+}
+.home-nav {
+    font-family: Inika;
+    font-weight: 700;
+    font-size: 16px;
+    color: #E06733;
+}
+.about-nav {
+    font-family: Inika;
+    font-weight: 300;
+    font-size: 16px; 
+}
+.srvice-nav {
+    font-family: Inika;
+    font-weight: 300;
+    font-size: 16px; 
+}
+.price-nav {
+    font-family: Inika;
+    font-weight: 300;
+    font-size: 16px;   
+}
+.contacts-nav {
+    font-family: Inika;
+    font-weight: 300;
+    font-size: 16px; 
+}
+.welcome {
+    background-color: #EDF2EC;
+    height: 532px;
+    min-width: 1440px;
+}
+.leafs {
+    height: 407.36px;
+    width: 448.8px;
+    position: absolute;
+    left: 109px;
+    top: 196px;
+}
+.welcome-header {
+    position: absolute;
+    top: 232px;
+    left: 782px;
+    height: 101px;
+    width: 549px;
+}
+.welcome-header p {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+.colortext {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #499A18;  
+}
+.welcome-text {
+    position: absolute;
+    top: 375px;
+    left: 782px;
+    height: 105px;
+    width: 525.44px;
+}
+.welcome-text p {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+.more-btn {
+    height: 44px;
+    width: 158px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    position: absolute;
+    top: 528px;
+    left: 782px;
+}
+.more-btn p {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about {
+    height: 666px;
+    min-width: 1440px;
+}
+.about-header {
+    height: 102px;
+    width: 463px;
+    position: absolute;
+    top: 827px;
+    left: 109px;
+}
+.about-header p {
+    font-family: Inika;
+    font-weight: 500;
+    font-size: 40px;
+    line-height:normal;
+    color: #E06733;
+}
+.colortext1 {
+    font-family: Inika;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: normal;
+    color: #499A18;  
+}
+.about-text {
+    height: 208px;
+    width: 605px;
+    position: absolute;
+    top: 969px;
+    left: 109px;
+}
+.about-text p {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+.houseplant1 {
+    height: 479px;
+    width: 464px;
+    position: absolute;
+    top: 759px;
+    left: 867px;
+}
+.service {
+    height: 1300px;
+    min-width: 1440px;
+    background-color: #EDF2EC;
+}
+.service-header {
+    height: 94px;
+    width: 306px;
+    position: absolute;
+    top: 1340px;
+    left: 109px;
+}
+.service-header p {
+    font-family: Inika;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: normal;
+    color: #499A18;  
+}
+.service-nav {
+    display: grid;
+    grid-template-columns: 161px 161px 161px;
+    grid-column-gap: 38px;
+    position: absolute;
+    top: 1420px;
+    left: 557px;
+}
+.gardens {
+    height: 44px;
+    width: 158px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+}
+.gardens p {
+    font-family: Inika;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 10px;
+    color: #E06733;
+    text-align: center;
+}
+.lawn {
+    height: 44px;
+    width: 158px;
+    border: 2px solid #E06733;
+    border-radius: 10px;   
+}
+.lawn p {
+    font-family: Inika;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 10px;
+    color: #E06733;
+    text-align: center;
+}
+.planting {
+    height: 44px;
+    width: 158px;
+    border: 2px solid #E06733;
+    border-radius: 10px;   
+}
+.planting p {
+    font-family: Inika;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 10px;
+    color: #E06733;
+    text-align: center;
+}
+.grid {
+    width: 1222px;
+    position: absolute;
+    top: 1556px;
+    left: 110px;
+}
+.images {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-column-gap: 116px;
+    grid-row-gap: 155px;
+}
+.first {
+    height: 350px;
+    width: 329px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.border {
+    height: 100px;
+    width: 327px;
+    border: 2px solid #E3E1D5;
+    border-top-color: #EDF2EC;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 0%;
+    position: absolute;
+    top: 350px;
+}
+.border1 {
+    height: 100px;
+    width: 327px;
+    border: 2px solid #E3E1D5;
+    border-top-color: #EDF2EC;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 0%;
+    position: absolute;
+    top: 855px;
+}
+.first p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #E06733;
+    text-align: center;
+}
+.garden-care-text p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color:#717171;
+}
+.first1 {
+    height: 350px;
+    width: 329px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.first1 p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #E06733;
+    text-align: center;
+}
+.first2 {
+    height: 350px;
+    width: 329px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.first3 {
+    height: 350px;
+    width: 329px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.first4 {
+    height: 350px;
+    width: 329px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.first5 {
+    height: 350px;
+    width: 329px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.prices {
+    height: 560px;
+    min-width: 1440px;
+    background-color: white;
+}
+.prices-header {
+    height: 50px;
+    width: 135px;
+    position: absolute;
+    top: 2674px;
+    left: 109px;
+}
+.prices-header p {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+.prices-text {
+    height: 103px;
+    width: 600px;
+    text-align: right;
+    position: absolute;
+    top: 2674px;
+    left: 730px;
+}
+.prices-text p {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+}
+.prices-btn {
+    height: 44px;
+    width: 158px;
+    border: 2px solid #E06733;
+    border-radius: 10px;  
+    position: absolute;
+    top: 2850px;
+    left: 1170px; 
+}
+.prices-btn p {
+    font-family: Inika;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 10px;
+    color: #E06733;
+    text-align: center;
+}
+.prc-btn {
+    height: 50px;
+    width: 250px;
+    background-color: #EDF2EC;
+    border-radius: 20px;
+    position: relative;
+}
+.prc-btn p {
+    font-family: Inika;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    margin-left: 40px;
+}
+.prc-btn1 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 194px;
+    top: 17px;
+}
+.prices-items {
+    height: 282px;
+    width: 332px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    position: absolute;
+    top: 2813px;
+    left: 109px;
+}
+.prices-grid {
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-row-gap: 32px;
+    position: relative;
+    left: 41px;
+    top: 34px;
+}
+.leafs2 {
+    height: 175px;
+    width: 152px;
+    position: absolute;
+    top: 2950px;
+    left: 1179px;
+}
+.contacts {
+    height: 550px;
+    min-width: 1440px;
+    background-color: #EDF2EC;
+}
+.contacts-header {
+    height: 51px;
+    width: 195px;
+    position: relative;
+    top: 60px;
+    left: 622px;
+}
+.contacts-header p {
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 700;
+    color: #499A18;
+}
+.city {
+    height: 50px;
+    width: 450px;
+    background-color: #D6E7D2;
+    position: relative;
+    top: 148px;
+    left: 881px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.city p {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    color: #717171;
+    margin-left: 20px;
+}
+.city-btn {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 399px;
+    top: 17px;
+}
+.woman {
+    height: 497px;
+    width: 400px;
+    position: absolute;
+    top: 3293px;
+    left: 109px;
+}
+.footer {
+    height: 130px;
+    min-width: 1440px;
+}
+.c {
+    position: absolute;
+    top: 3825px;
+    left: 109px;
+}
+.c p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.year {
+    position: absolute;
+    top: 3825px;
+    left: 148px;  
+}
+.year p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.github {
+    position: absolute;
+    top: 3828px;
+    left: 217px;  
+}
+.github a {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000000; 
+}
+.school {
+    position: absolute;
+    top: 3828px;
+    left: 615px; 
+}
+.school p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.social {
+    display: grid;
+    grid-template-columns: 32px 32px 32px 32px;
+    grid-column-gap: 20px;
+    position: absolute;
+    top: 3855px;
+    left: 1143px;
+}
+.inst {
+    height: 32px;
+    width: 32px;
+}
+.facebook {
+    height: 32px;
+    width: 32px;
+}
+.twitter {
+    height: 32px;
+    width: 32px;
+}
+.pinterest {
+    height: 32px;
+    width: 32px;
+}
