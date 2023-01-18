@@ -1,1 +1,1 @@
-https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL2022Q4/plants/
+https://rolling-scopes-school.github.io/KebetsKarina-JSFEPRESCHOOL2022Q4/plants/
