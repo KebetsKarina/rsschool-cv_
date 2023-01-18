@@ -1,0 +1,354 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Regular.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto';
+}
+header {
+    height: 260px;
+    background-color: #A40033;
+    border: none;
+}
+.avatar {
+    height: 260px;
+    width: 260px;
+    top: 0px;
+    left: 0px;
+} 
+.name {
+    position: absolute;
+    top: 30px;
+    left: 423px;
+    text-transform: uppercase;
+    font-size: 66px;
+    line-height: 68px;
+    font-weight: bold;
+    color: white;
+    height: 88px;
+    width: 146px;
+    justify-content: flex-end;
+}
+.speciality {
+    position: absolute;
+    top: 166px;
+    left: 423px;
+    text-transform: uppercase;
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 300;
+    color: white;
+    height: 56px;
+    width: 245px;
+    justify-content: flex-end;
+}
+.summary {
+    position: absolute;
+    top: 305px;
+    left: 150px;
+    right: 150px;
+    height: 168px;
+    justify-content: flex-end;
+    
+}
+.summary p {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.experience {
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    height: 50px;
+    width: 520px;
+}
+.experience p {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight:300;
+    line-height: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.Armytek {
+    position: absolute;
+    top: 645px;
+    left: 150px;
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.arm-sp {
+    position: absolute;
+    top: 700px;
+    left: 150px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.arm-y {
+    position: absolute;
+    top: 730px;
+    left: 150px;  
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300; 
+}
+.arm-w {
+    height: 300px;
+    width: 520px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 755px;
+    left: 150px; 
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300;  
+}
+.Velosiped {
+    position: absolute;
+    top: 1150px;
+    left: 150px;
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.velo-sp {
+    position: absolute;
+    top: 1205px;
+    left: 150px; 
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300; 
+}
+.velo-y {
+    position: absolute;
+    top: 1235px;
+    left: 150px;  
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;  
+}
+.velo-w {
+    height: 300px;
+    width: 520px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 1260px;
+    left: 150px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300;  
+}
+.Education {
+    position: absolute;
+    top: 1650px;
+    left: 150px;
+    height: 50px;
+    width: 520px;
+}
+.Education p {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight:300;
+    line-height: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.University  {
+    position: absolute;
+    top: 1695px;
+    left: 150px;
+    width: 520px;
+    justify-content: flex-end;
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.uni-sp {
+    position: absolute;
+    top: 1785px;
+    left: 150px; 
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300; 
+}
+.uni-y {
+    position: absolute;
+    top: 1815px;
+    left: 150px; 
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300; 
+}
+.College {
+    position: absolute;
+    top: 1865px;
+    left: 150px;
+    width: 520px;
+    justify-content: flex-end;
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.coll-sp {
+    position: absolute;
+    top: 1915px;
+    left: 150px; 
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;  
+}
+.coll-y {
+    position: absolute;
+    top: 1945px;
+    left: 150px; 
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;   
+}
+.Projects {
+    position: absolute;
+    top: 600px;
+    left: 850px;
+    height: 50px;
+    width: 520px;
+}
+.Projects p {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight:300;
+    line-height: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.poject {
+    position: absolute;
+    top: 645px;
+    left: 850px;
+    height: 50px;
+    width: 520px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300; 
+}
+.pr  {
+    position: absolute;
+    top: 780px;
+    left: 850px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;  
+}
+.role {
+    position: absolute;
+    top: 810px;
+    left: 850px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.Tools {
+    position: absolute;
+    top: 920px;
+    left: 850px;
+    height: 50px;
+    width: 520px;
+}
+.Tools p {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight:300;
+    line-height: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.tools-list {
+    position: absolute;
+    top: 960px;
+    left: 850px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300;  
+}
+.Languges {
+    position: absolute;
+    top: 1380px;
+    left: 850px;
+    height: 50px;
+    width: 520px;
+}
+.Languges p {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight:300;
+    line-height: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.languages-list {
+    position: absolute;
+    top: 1420px;
+    left: 850px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300;  
+}
+.Hobbies { 
+    position: absolute;
+    top: 1650px;
+    left: 850px;
+    height: 50px;
+    width: 520px;
+}
+.Hobbies p {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight:300;
+    line-height: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.hobbies-list {
+    position: absolute;
+    top: 1690px;
+    left: 850px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300;  
+}
+* {
+    box-sizing: border-box;
+  }
